@@ -74,11 +74,5 @@ Here is full example:
    "https://api.github.com/repositories/1890957/commits?page=452"
 
 
-
-   TEST> (format nil "Blah minor: ~a"
-                     100500)
-   "Blah minor: 100500"
-
-   
 .. _Dexador: http://quickdocs.org/dexador/
 
