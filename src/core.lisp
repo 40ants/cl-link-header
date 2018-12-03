@@ -1,14 +1,15 @@
 (defpackage #:link-header/core
-   (:nicknames #:link-header)
-   (:use #:cl
-         #:f-underscore)
-   (:import-from #:alexandria
-                 #:make-keyword)
-   (:import-from #:cl-strings
-                 #:ends-with)
-   (:export
-    #:with-links
-    #:parse))
+  (:nicknames #:link-header)
+  (:use #:cl
+        #:f-underscore)
+  (:import-from #:cl-ppcre)
+  (:import-from #:alexandria
+                #:make-keyword)
+  (:import-from #:cl-strings
+                #:ends-with)
+  (:export
+   #:with-links
+   #:parse))
 (in-package link-header/core)
 
 
